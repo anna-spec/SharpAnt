@@ -1,0 +1,9 @@
+{
+  "dependencies": {},
+  "scripts": {
+    "scss": "node-sass --watch scss -o css"
+  },
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

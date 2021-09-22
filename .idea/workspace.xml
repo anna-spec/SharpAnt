@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c27311d8-f691-4025-b888-bed152bcdb5a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1s4Lu59pF4RvmDhws1dSFGWeZJJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c27311d8-f691-4025-b888-bed152bcdb5a" name="Default Changelist" comment="" />
+      <created>1620127134720</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620127134720</updated>
+      <workItem from="1620127135754" duration="45666000" />
+      <workItem from="1621258491288" duration="15711000" />
+      <workItem from="1624367220260" duration="3921000" />
+      <workItem from="1624447443741" duration="42728000" />
+      <workItem from="1625126158327" duration="44752000" />
+      <workItem from="1626096821509" duration="29893000" />
+      <workItem from="1626699175057" duration="6719000" />
+      <workItem from="1627505386730" duration="7803000" />
+      <workItem from="1628146901752" duration="16515000" />
+      <workItem from="1628237329164" duration="53109000" />
+      <workItem from="1629360891595" duration="4149000" />
+      <workItem from="1629891753276" duration="18587000" />
+      <workItem from="1630327843825" duration="12155000" />
+      <workItem from="1630934074780" duration="22272000" />
+      <workItem from="1631869216248" duration="11158000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1625039762651">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1625039762651" />
+    <state x="477" y="264" key="NewPhpFileDialog" timestamp="1631089049182">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1631089049182" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1624612051288">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1624612051288" />
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1631110237778">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1631110237778" />
+    <state x="347" y="44" width="587" height="592" key="find.popup" timestamp="1628504822687">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="347" y="44" width="587" height="592" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1628504822687" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1630414329548">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1630414329548" />
+  </component>
+</project>
