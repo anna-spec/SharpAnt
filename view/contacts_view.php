@@ -10,6 +10,10 @@ include "includes/nav.php";
 
 <body>
 <section class="contact-us">
+    <div class="h2">
+        <h2>Contact Us</h2>
+        <img src="images/h2-img.png" alt="">
+    </div>
     <div class="gray-bg">
         <div class="contact-block">
             <div class="contacts">

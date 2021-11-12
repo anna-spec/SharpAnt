@@ -4,7 +4,7 @@
         <div class="logo"><a href="/"><img src="images/logo.svg" alt=""></a></div>
         <div class="nav">
             <nav id="nav-header">
-                <ul>
+                <ul class="ul_list">
                     <li class="nav-li active"><a href="/">Home</a></li>
                     <!-- Dropdown -->
                     <li class="nav-item dropdown">

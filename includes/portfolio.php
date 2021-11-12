@@ -37,36 +37,75 @@
 
         <div id="2" class="tabcontent">
             <div class="images">
-                <div><img src="images/work1.png" alt=""></div>
-                <div><img src="images/work4.png" alt=""></div>
-                <div><img src="images/work5.png" alt=""></div>
-                <div><img src="images/work6.png" alt=""></div>
+                <div id="pnav">
+                    <div></div>
+                </div>
+                <div id="pnav">
+                    <div></div>
+                </div>
+                <div id="pnav">
+                    <div></div>
+                </div>
+                <div id="pnav">
+                    <div></div>
+                </div>
+                <div id="pnav">
+                    <div></div>
+                </div>
             </div>
         </div>
 
         <div id="3" class="tabcontent">
             <div class="images">
-                <div><img src="images/work1.png" alt=""></div>
-                <div><img src="images/work2.png" alt=""></div>
-                <div><img src="images/work3.png" alt=""></div>
+                <div id="pnav">
+                    <div></div>
+                </div>
+                <div id="pnav">
+                    <div></div>
+                </div>
+                <div id="pnav">
+                    <div></div>
+                </div>
+                <div id="pnav">
+                    <div></div>
+                </div>
+                <div id="pnav">
+                    <div></div>
+                </div>
+                <div id="pnav">
+                    <div></div>
+                </div>
             </div>
         </div>
 
         <div id="4" class="tabcontent">
             <div class="images">
-                <div><img src="images/work1.png" alt=""></div>
-                <div><img src="images/work3.png" alt=""></div>
-                <div><img src="images/work4.png" alt=""></div>
-                <div><img src="images/work5.png" alt=""></div>
-                <div><img src="images/work6.png" alt=""></div>
+                <div id="pnav">
+                    <div></div>
+                </div>
+                <div id="pnav">
+                    <div></div>
+                </div>
+                <div id="pnav">
+                    <div></div>
+                </div>
+                <div id="pnav">
+                    <div></div>
+                </div>
             </div>
         </div>
         <div id="5" class="tabcontent">
             <div class="images">
-                <div><img src="images/work1.png" alt=""></div>
-                <div><img src="images/work2.png" alt=""></div>
-                <div><img src="images/work4.png" alt=""></div>
-                <div><img src="images/work6.png" alt=""></div>
+                <div id="pnav">
+                    <div></div>
+                </div>
+                <div id="pnav">
+                    <div></div>
+                </div>
+                <div id="pnav">
+                    <div></div>
+                </div>
+
             </div>
         </div>
     </div>

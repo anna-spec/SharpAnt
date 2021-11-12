@@ -123,7 +123,7 @@ ul{
         display: none;
       }
     }
-    ul {
+    .ul_list {
       list-style-type: none;
       display: flex;
       justify-content: space-between;
@@ -208,6 +208,8 @@ ul{
     }
   }
 }
+
+
 .idea-section {
   display: flex;
   @media screen and (max-width: $xs) {
@@ -2841,6 +2843,15 @@ ul{
     }
   }
 }
+
+.portfolio{
+  .our-works{
+    .h2{
+      display: none;
+    }
+  }
+}
+
 .our-works{
   text-align: center;
   @media screen and (max-width: $xs) {
@@ -2964,11 +2975,11 @@ ul{
             padding-top: 20px;;
             width: 650px;
             height: 712px;
-            -webkit-transition: background-position 2s ease-in-out;
-            -moz-transition: background-position 2s ease-in-out;
-            -ms-transition: background-position 2s ease-in-out;
-            -o-transition: background-position 2s ease-in-out;
-            transition: background-position 2s ease-in-out;
+            -webkit-transition: background-position 1s ease-in-out;
+            -moz-transition: background-position 1s ease-in-out;
+            -ms-transition: background-position 1s ease-in-out;
+            -o-transition: background-position 1s ease-in-out;
+            transition: background-position 1s ease-in-out;
             @media screen and (max-width: $xl) {
               width: 449px;
               height: 450px;
@@ -2982,10 +2993,13 @@ ul{
             &:hover {
               background-position: 0px -450px;
               @media screen and (max-width: $xl) {
-                background-position: 0px -356px;
+                background-position: 0px -358px;
               }
               @media screen and (max-width: $l) {
-                background-position: 0px -256px;
+                background-position: 6px -352px;
+              }
+              @media screen and (max-width: $m) {
+                background-position: 8px -179px;
               }
             }
           }
@@ -3487,6 +3501,7 @@ ul{
         border: 1px solid $dark-green;
         padding: 16px 24px;
         box-sizing: border-box;
+        width: 100%;
         &:hover{
           background-color: $dark-green ;
           color: #ffffff;
@@ -3538,55 +3553,59 @@ ul{
         }
       }
     }
-    .member_modal{
-      width: 600px;
-      height: 704px;
-      background: #FFFFFF;
-      box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.15);
-      border-radius: 4px;
-      .green-sec{
-        height: 110px;
-        background-color: $dark-green;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 24px;
-        color: #FFFFFF;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      .form{
-        width: 422px;
+    .modal{
+     
+      .member_modal{
+        width: 600px;
+        height: 704px;
+        background: #FFFFFF;
+        box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
         margin: auto;
-        input{
-          width: 422px;
-          height: 50px;
-          margin-top: 50px;
-          border: 1.2px solid #B4BEC8 !important;
-        }
-        ::placeholder{
-          font-size: 16px;
-          line-height: 20px;
-          color: #878787;
-          opacity: 0.8;
-          padding-left: 14px;
-        }
-        label{
-          font-size: 20px;
-          line-height: 24px;
-          color: #000000;
-          margin-top: 40px;
-          margin-bottom: -20px;
-          justify-content: start;
-          display: flex;
-        }
-        .button{
-          background: $dark-green;
-          border-radius: 4px;
-          font-weight: 600;
+        .green-sec{
+          height: 110px;
+          background-color: $dark-green;
+          font-weight: 500;
           font-size: 20px;
           line-height: 24px;
           color: #FFFFFF;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .form{
+          width: 422px;
+          margin: auto;
+          input{
+            width: 422px;
+            height: 50px;
+            margin-top: 50px;
+            border: 1.2px solid #B4BEC8 !important;
+          }
+          ::placeholder{
+            font-size: 16px;
+            line-height: 20px;
+            color: #878787;
+            opacity: 0.8;
+            padding-left: 14px;
+          }
+          label{
+            font-size: 20px;
+            line-height: 24px;
+            color: #000000;
+            margin-top: 40px;
+            margin-bottom: -20px;
+            justify-content: start;
+            display: flex;
+          }
+          .button{
+            background: $dark-green;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+            color: #FFFFFF;
+          }
         }
       }
     }
@@ -4280,11 +4299,11 @@ ul{
 .select-items {
   position: absolute;
   background-color: white;
-  top: 110%;
+  top: 100%;
   left: -2px;
   right: 0;
   z-index: 99;
-  width: 427px;
+  width: 424px;
 }
 
 /*hide the items when the select box is closed:*/

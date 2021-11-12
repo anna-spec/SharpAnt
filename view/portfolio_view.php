@@ -36,64 +36,70 @@ include "includes/nav.php";
     </div>
 </section>
 
-<section class="our-works">
+<!--<section class="our-works">-->
+<!---->
+<!--        <div id="" class="works">-->
+<!--            <div class="tab">-->
+<!--                <button class="tablinks  active-button" onmouseover="openWork(event, '1')">All</button>-->
+<!--                <button class="tablinks" onmouseover="openWork(event, '2')">UI/UX Design</button>-->
+<!--                <button class="tablinks" onmouseover="openWork(event, '3')">Logo Design</button>-->
+<!--                <button class="tablinks" onmouseover="openWork(event, '4')">Websites</button>-->
+<!--                <button class="tablinks" onmouseover="openWork(event, '5')">Web application</button>-->
+<!--            </div>-->
+<!---->
+<!--            <div id="1" class="tabcontent  active-tab">-->
+<!--                <div class="images">-->
+<!--                    <div><img src="images/work1.png" alt=""></div>-->
+<!--                    <div><img src="images/work2.png" alt=""></div>-->
+<!--                    <div><img src="images/work3.png" alt=""></div>-->
+<!--                    <div><img src="images/work4.png" alt=""></div>-->
+<!--                    <div><img src="images/work5.png" alt=""></div>-->
+<!--                    <div><img src="images/work6.png" alt=""></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--            <div id="2" class="tabcontent">-->
+<!--                <div class="images">-->
+<!--                    <div><img src="images/work1.png" alt=""></div>-->
+<!--                    <div><img src="images/work4.png" alt=""></div>-->
+<!--                    <div><img src="images/work5.png" alt=""></div>-->
+<!--                    <div><img src="images/work6.png" alt=""></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--            <div id="3" class="tabcontent">-->
+<!--                <div class="images">-->
+<!--                    <div><img src="images/work1.png" alt=""></div>-->
+<!--                    <div><img src="images/work2.png" alt=""></div>-->
+<!--                    <div><img src="images/work3.png" alt=""></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!---->
+<!--            <div id="4" class="tabcontent">-->
+<!--                <div class="images">-->
+<!--                    <div><img src="images/work1.png" alt=""></div>-->
+<!--                    <div><img src="images/work3.png" alt=""></div>-->
+<!--                    <div><img src="images/work4.png" alt=""></div>-->
+<!--                    <div><img src="images/work5.png" alt=""></div>-->
+<!--                    <div><img src="images/work6.png" alt=""></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div id="5" class="tabcontent">-->
+<!--                <div class="images">-->
+<!--                    <div><img src="images/work1.png" alt=""></div>-->
+<!--                    <div><img src="images/work2.png" alt=""></div>-->
+<!--                    <div><img src="images/work4.png" alt=""></div>-->
+<!--                    <div><img src="images/work6.png" alt=""></div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </section>-->
 
-        <div id="" class="works">
-            <div class="tab">
-                <button class="tablinks  active-button" onmouseover="openWork(event, '1')">All</button>
-                <button class="tablinks" onmouseover="openWork(event, '2')">UI/UX Design</button>
-                <button class="tablinks" onmouseover="openWork(event, '3')">Logo Design</button>
-                <button class="tablinks" onmouseover="openWork(event, '4')">Websites</button>
-                <button class="tablinks" onmouseover="openWork(event, '5')">Web application</button>
-            </div>
-
-            <div id="1" class="tabcontent  active-tab">
-                <div class="images">
-                    <div><img src="images/work1.png" alt=""></div>
-                    <div><img src="images/work2.png" alt=""></div>
-                    <div><img src="images/work3.png" alt=""></div>
-                    <div><img src="images/work4.png" alt=""></div>
-                    <div><img src="images/work5.png" alt=""></div>
-                    <div><img src="images/work6.png" alt=""></div>
-                </div>
-            </div>
-
-            <div id="2" class="tabcontent">
-                <div class="images">
-                    <div><img src="images/work1.png" alt=""></div>
-                    <div><img src="images/work4.png" alt=""></div>
-                    <div><img src="images/work5.png" alt=""></div>
-                    <div><img src="images/work6.png" alt=""></div>
-                </div>
-            </div>
-
-            <div id="3" class="tabcontent">
-                <div class="images">
-                    <div><img src="images/work1.png" alt=""></div>
-                    <div><img src="images/work2.png" alt=""></div>
-                    <div><img src="images/work3.png" alt=""></div>
-                </div>
-            </div>
-
-            <div id="4" class="tabcontent">
-                <div class="images">
-                    <div><img src="images/work1.png" alt=""></div>
-                    <div><img src="images/work3.png" alt=""></div>
-                    <div><img src="images/work4.png" alt=""></div>
-                    <div><img src="images/work5.png" alt=""></div>
-                    <div><img src="images/work6.png" alt=""></div>
-                </div>
-            </div>
-            <div id="5" class="tabcontent">
-                <div class="images">
-                    <div><img src="images/work1.png" alt=""></div>
-                    <div><img src="images/work2.png" alt=""></div>
-                    <div><img src="images/work4.png" alt=""></div>
-                    <div><img src="images/work6.png" alt=""></div>
-                </div>
-            </div>
-        </div>
-    </section>
+<div class="portfolio">
+    <?php
+    include "includes/portfolio.php";
+    ?>
+</div>
 
 <section class="our-works-mob">
         <div class="filter-block">

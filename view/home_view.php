@@ -15,7 +15,7 @@ include "includes/nav.php";
                 a new tomorrow! We believe that trust should be the
                 foundation of every cooperation. We believe in creating
                 something today have a lasting impact on the future.</p>
-            <button>Learn more</button>
+            <a href=""><button>Learn more</button></a>
         </div>
     </div>
     <div class="img-head">
@@ -319,32 +319,34 @@ include "includes/portfolio.php";
         </div>
         <div class="member">
             <img  class="pt-5" src="images/anonymous1.png" alt="">
-            <span class="name  anonymous">Become a member</span>
-            <span class="profession"></span>
+            <button type="button" class="name anonymous" data-toggle="modal" data-target="#exampleModal">
+                Become a member
+            </button>
         </div>
-        <div class="member_modal">
-            <div class="green-sec">
-                <p>Please apply for your dream job!</p>
-            </div>
-            <div class="form">
-                <form action="">
-                    <input placeholder="Full Name" name="name" type="text">
-                    <input placeholder="Email Address" name="email" type="email">
-                    <div class="custom-select">
-                        <select>
-                            <option value="0">Choose your Specialty</option>
-                            <option value="1">Audi</option>
-                            <option value="2">BMW</option>
-                            <option value="3">Citroen</option>
-                            <option value="4">Ford</option>
-                            <option value="5">Honda</option>
-                        </select>
-                    </div>
-                    <label for="myfile">Please upload your CV</label>
-                    <input type="file" id="myfile" name="myfile">
-                    <input type="file" style="width:200px">
-                    <input class="button" type="submit" value="Submit">
-                </form>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="member_modal">
+                <div class="green-sec">
+                    <p>Please apply for your dream job!</p>
+                </div>
+                <div class="form">
+                    <form action="">
+                        <input placeholder="Full Name" name="name" type="text">
+                        <input placeholder="Email Address" name="email" type="email">
+                        <div class="custom-select">
+                            <select>
+                                <option value="0">Choose your Specialty</option>
+                                <option value="1">Front-End Developer</option>
+                                <option value="2">Back-End Developer</option>
+                                <option value="3">Full Stack Developer</option>
+                                <option value="4">UI/UX Designer</option>
+                                <option value="5">IT Sales Manager</option>
+                            </select>
+                        </div>
+                        <label for="myfile">Please upload your CV</label>
+                        <input type="file" id="myfile" name="myfile">
+                        <input class="button" type="submit" value="Submit">
+                    </form>
+                </div>
             </div>
         </div>
     </div>
@@ -406,3 +408,9 @@ include "includes/footer.php";
 <?php
 include "includes/scripts.php";
 ?>
+
+
+
+
+
+
